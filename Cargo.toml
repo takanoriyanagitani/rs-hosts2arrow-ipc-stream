@@ -3,6 +3,18 @@ name = "rs-hosts2arrow-ipc-stream"
 version = "0.1.0"
 edition = "2024"
 
+description = "Prints the hosts info as an ipc stream."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-hosts2arrow-ipc-stream"
+homepage = "https://github.com/takanoriyanagitani/rs-hosts2arrow-ipc-stream"
+documentation = "https://docs.rs/rs-hosts2arrow-ipc-stream/latest"
+keywords = ["arrow", "ipc", "stream", "hosts"]
+category = ["command-line-utilities"]
+
+exclude = [
+	"hosts2arrow-ipc-stream",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
